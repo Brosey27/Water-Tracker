@@ -61,10 +61,20 @@ body {
   }
   p {
   position: absolute;
+    bottom: 520px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer {
+    position: absolute;
     bottom: 2.5px; /* Adjust the distance from the bottom */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   }
