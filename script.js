@@ -1,10 +1,13 @@
-const waterCheckbox = document.getElementById('waterCheckbox');
-const waterFill = document.querySelector('.water');
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+const glasses = document.querySelectorAll('.glass');
 
-waterCheckbox.addEventListener('change', function () {
-  if (waterCheckbox.checked) {
-    waterFill.style.height = '100%';
-  } else {
-    waterFill.style.height = '0';
-  }
+checkboxes.forEach((checkbox, index) => {
+  checkbox.addEventListener('change', function () {
+    const glass = glasses[index].querySelector('.water');
+    if (checkbox.checked) {
+      glass.style.height = '100%';
+    } else {
+      glass.style.height = '0';
+    }
+  });
 });

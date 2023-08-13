@@ -48,3 +48,14 @@ body {
   label {
     color:#fff;
   }
+  .week {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .day {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 10px; /* Add margin for space between glasses */
+  }
