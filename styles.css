@@ -59,3 +59,12 @@ body {
     margin-bottom: 20px;
     margin: 10px; /* Add margin for space between glasses */
   }
+  p {
+  position: absolute;
+    bottom: 2.5px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
